@@ -19,7 +19,7 @@ DISCORD_TOKEN = ''
 BOT_NAME = 'SVM Panel'
 PREFIX = '!'
 YOUR_SERVER_IP = ''
-MAIN_ADMIN_ID = ''
+MAIN_ADMIN_ID = '1405866008127864852'
 VPS_USER_ROLE_ID = ''
 DEFAULT_STORAGE_POOL = 'default'
 # OS Options for VPS Creation and Reinstall
