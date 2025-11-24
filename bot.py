@@ -289,9 +289,9 @@ def create_embed(title, description="", color=0x1a1a1a):
         description=truncate_text(description, 4096),
         color=color
     )
-    embed.set_thumbnail(url="https://i.imgur.com/Tv3clt0.jpeg")
+    embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/1432759381354614874/1442343878773706872/1763894084589.jpg?ex=692516ea&is=6923c56a&hm=51827cdaa88f7e6a8678688917af51a4385e5ceab7a63ca5b143abbe93258def&")
     embed.set_footer(text=f"{BOT_NAME} VPS Manager • {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-                     icon_url="https://i.imgur.com/Tv3clt0.jpeg")
+                     icon_url="https://cdn.discordapp.com/attachments/1432759381354614874/1442343878773706872/1763894084589.jpg?ex=692516ea&is=6923c56a&hm=51827cdaa88f7e6a8678688917af51a4385e5ceab7a63ca5b143abbe93258def&")
     return embed
 def add_field(embed, name, value, inline=False):
     embed.add_field(
